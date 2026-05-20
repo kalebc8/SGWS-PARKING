@@ -1,5 +1,5 @@
 # SGWS-PARKING
-[index.html](https://github.com/user-attachments/files/28071252/index.html)
+[index.html](https://github.com/user-attachments/files/28071410/index.html)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -271,8 +271,9 @@
 </div>
 
 <script>
-const GITHUB_USER = 'kalebc8'; // UPDATE THIS after deploying to GitHub Pages
-const BASE_URL = `https://${GITHUB_USER}.github.io/sgws-parking/`;
+const GITHUB_USER = 'kalebc8';
+const REPO_NAME = 'SGWS-PARKING'; // UPDATE THIS after deploying to GitHub Pages
+const BASE_URL = `https://${GITHUB_USER}.github.io/${REPO_NAME}/`;
 
 const SECTIONS = {
   1: { name:"In Front of Generator", short:"Generator", color:"#65A30D", bg:"#ECFCCB", text:"#365314",
