@@ -353,7 +353,7 @@ Object.entries(SECTIONS).forEach(([s,d]) => {
   const item = document.createElement('div');
   item.className='legend-item';
   item.style.borderColor=d.color; item.style.color=d.text;
-  item.innerHTML=`<div class="legend-dot" style="background:${d.color}"></div>S${s}: ${d.short}`;
+  item.innerHTML=`<div class="legend-dot" style="background:${d.color}"></div>S${s}: ${d.short} · ${d.trucks.length}`;
   item.onclick=()=>highlightZone(+s);
   leg.appendChild(item);
 });
