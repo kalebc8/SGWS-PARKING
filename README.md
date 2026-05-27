@@ -257,7 +257,7 @@
         <option value="5">Section 5 — Hand Trucks</option>
         <option value="6">Section 6 — Checkers Doc</option>
         <option value="7">Section 7 — Fuel Island E</option>
-        <option value="8">Section 8 — Pending</option>
+        <option value="8">Section 8 — Middle Yard</option>
       </select>
       <button onclick="window.print()">🖨 Print QR Codes</button>
     </div>
@@ -297,9 +297,9 @@ const SECTIONS = {
   7: { name:"East Side Fence Fuel Island", short:"Fuel Island E", color:"#2563EB", bg:"#DBEAFE", text:"#1E3A8A",
        trucks:[2121,3596,3903,3904,3905,3906,3907,4739,4740,5921,5922,5923,5924,5925,5926,7642],
        desc:"Top right, blue zone. Large double row along the east side fence near the fuel island." },
-  8: { name:"Section 8 (Pending)", short:"Pending", color:"#C026D3", bg:"#FAE8FF", text:"#701A75",
+  8: { name:"Section 8 (Pending)", short:"PMiddle Yard", color:"#C026D3", bg:"#FAE8FF", text:"#701A75",
        trucks:[2204,2205,2206,2553,2555,2819,2820,3192,3194,3195,4135,4136,4200,4431,4432,4433,5167,5188,5234,5235,5236,5264,5281,6051,6052,6053,7264,7705,8092,8093,8094,8110,8111,8703,8704,8705],
-       desc:"Center right, pink zone. Truck assignments pending — check with your supervisor." }
+       desc:"Center right, pink zone. Parked Staggered leaving room to walk between trucks." }
 };
 
 const truckMap = {};
